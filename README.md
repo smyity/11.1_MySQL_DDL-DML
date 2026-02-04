@@ -73,13 +73,13 @@ SHOW GRANTS FOR 'sys_temp'@'%';
 
 ![](pic/PIC002.PNG)
 
-1.6.1 Вход в **MySQL** под пользователем **sys_temp**
+1.6.1 Вход в **MySQL** под пользователем **sys_temp**:
 
 ```
 docker exec -it mysql mysql -u sys_temp -p 
 ```
 
-1.6.2 Скачан дамп базы данных и проброшен в контейнер в директорию */share/sakila-db/*
+1.6.2 Скачан дамп базы данных и проброшен в контейнер в директорию */share/sakila-db/*:
 
 ```
 /tmp/volume_mysql/sakila-db/
