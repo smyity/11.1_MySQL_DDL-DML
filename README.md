@@ -181,7 +181,7 @@ ORDER BY
 
 Готовая таблица:
 
-|**TABLE_NAME**|**COLUMN_NAME**|
+|**Название таблицы**|**Название первичного ключа**|
 |:-:|:-:|
 |actor|actor_id|
 |address|address_id|
